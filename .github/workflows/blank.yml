@@ -31,7 +31,7 @@ jobs:
             CLOUD_ONE_API_KEY: ${{ secrets.API_KEY }}
             IMAGE: alpine
             REGION: us-1
-            TOTAL: 0
+            MAX_TOTAL: 0
             MAX_CRITICAL: 0
             MAX_HIGH: 0
             MAX_MEDIUM: 0
