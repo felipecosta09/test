@@ -29,7 +29,7 @@ jobs:
         uses: felipecosta09/c1cs@main
         with:
             CLOUD_ONE_API_KEY: ${{ secrets.API_KEY }}
-            IMAGE: alpine
+            IMAGE: public.ecr.aws/amazonlinux/amazonlinux:2018.03
             REGION: us-1
             MAX_TOTAL: 1
             MAX_CRITICAL: 60
