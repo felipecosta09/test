@@ -39,3 +39,10 @@ jobs:
             MAX_NEGLIGIBLE: 0
             MAX_UNKNOWN: 0
             SCAN_RESULT_ARTIFACT: result.json
+            
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: result.json
+          retention-days: 30
