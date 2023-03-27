@@ -31,7 +31,7 @@ jobs:
             CLOUD_ONE_API_KEY: ${{ secrets.API_KEY }}
             IMAGE: public.ecr.aws/amazonlinux/amazonlinux:2018.03
             REGION: us-1
-            MAX_TOTAL: 60
+            MAX_TOTAL: 1
             MAX_CRITICAL: 60
             MAX_HIGH: 60
             MAX_MEDIUM: 60
