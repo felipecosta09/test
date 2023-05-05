@@ -46,3 +46,9 @@ jobs:
           name: my-artifact
           path: result.json
           retention-days: 30
+      - name: 'Upload SBOM'
+        uses: actions/upload-artifact@v3
+        with:
+          name: SBOM
+          path: SBOM.json
+          retention-days: 30
